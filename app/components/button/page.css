@@ -1,5 +1,4 @@
 .cont {
-  padding: 64px;
   position: relative;
 }
 
@@ -11,7 +10,7 @@
 }
 
 .btn {
-  background: #2f4ad0;
+  background: #4267b2;
   box-shadow: 0 8px 6px -6px #555;
   transition: all 0.4s ease;
 }

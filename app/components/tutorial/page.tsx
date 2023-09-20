@@ -1,6 +1,10 @@
-export default function Tutorial() {
+import { PiBracketsCurlyFill, PiPlusCircleFill } from "react-icons/pi";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+import React from "react";
+
+export default function Tutorial({ scrolToRef }) {
   return (
-    <section>
+    <section ref={scrolToRef}>
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-4xl text-center">
           How to Download Facebook Video Thumbnail
@@ -13,12 +17,7 @@ export default function Tutorial() {
       <div className="flex justify-between w-full sm:flex-col">
         <div className="flex flex-col justify-between text-center">
           <div className="flex self-center">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/fluency-systems-filled/64/plus.png"
-              alt="plus"
-            />
+            <PiPlusCircleFill className="w-[64px] h-[64px] text-first" />
           </div>
           <h2 className="font-bold text-2xl text-first">
             Add your website URL
@@ -30,12 +29,7 @@ export default function Tutorial() {
 
         <div className="flex flex-col justify-between text-center">
           <div className="flex self-center">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/fluency-systems-filled/64/circled-chevron-right.png"
-              alt="circled-chevron-right"
-            />
+            <PiBracketsCurlyFill className="w-[64px] h-[64px] text-first" />
           </div>
           <h2 className="font-bold text-2xl text-first">
             Add your website URL
@@ -47,12 +41,7 @@ export default function Tutorial() {
 
         <div className="flex flex-col justify-between text-center">
           <div className="flex self-center">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/64/external-download-web-smashingstocks-glyph-smashing-stocks-3.png"
-              alt="external-download-web-smashingstocks-glyph-smashing-stocks-3"
-            />
+            <FaCloudDownloadAlt className="w-[64px] h-[64px] text-first" />
           </div>
           <h2 className="font-bold text-2xl text-first">
             Add your website URL
