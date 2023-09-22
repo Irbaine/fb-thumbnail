@@ -15,7 +15,7 @@ const Header = forwardRef(function Header({ scrolToRef }) {
 
   return (
     <>
-      <div className="flex justify-between px-[4%] mb-auto h-auto text-lg">
+      <div className="flex justify-between px-[2%] mt-[1%] mb-[2%] h-auto text-lg">
         <div>
           {" "}
           <FaCloudDownloadAlt className="w-[64px] h-[37px] text-first" />

@@ -27,7 +27,7 @@ export default function Home() {
 
       <Header scrolToRef={scrolToRef} />
       <main className="flex flex-col justify-around gap-10 px-[6%]">
-        <h1 className="font-bold text-4xl text-center">
+        <h1 className="font-bold text-4xl text-center text-first">
           Facebook Thumbnails Downloader
         </h1>
         <LinkSection platform={platform} lang={language} />
